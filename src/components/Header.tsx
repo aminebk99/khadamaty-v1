@@ -1,4 +1,4 @@
-import logo from '../assets/khadamatylogopng white.png'
+
 
 function Header() {
   return (
