@@ -3,7 +3,7 @@ function Header() {
   return (
     <header className='bg-[#146551] w-full flex items-center justify-between px-10 py-5'>
         <div className='text-white'>
-            <img src={logo} alt="" className="w-40"/>
+            <img src={logo} alt="" className="w-30"/>
             {/* logo */}
         </div>
         <div className=''>
