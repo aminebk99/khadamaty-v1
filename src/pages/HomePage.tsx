@@ -12,7 +12,7 @@ function HomePage() {
       <Hero />
       <Categories />
       <Service />
-      <MainContent />
+      {/* <MainContent /> */}
 
       <Footer />
     </div>

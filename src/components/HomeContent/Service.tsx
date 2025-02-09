@@ -20,7 +20,7 @@ function Service() {
           </span>
         </div>
         
-        <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 bg-amber-300 p-4 rounded-xl">
+        <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 rounded-xl">
           {[1, 2, 3, 4].map((item) => (
             <div key={item} className="p-4 rounded-2xl shadow w-full bg-white">
               <div className="flex items-center">
