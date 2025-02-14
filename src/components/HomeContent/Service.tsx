@@ -3,7 +3,7 @@ import { MoveLeft, MoveRight } from "lucide-react";
 
 function Service() {
   const postText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate, animi enim deserunt tenetur dolores praesentium inventore necessitatibus modi aliquam commodi harum quaerat voluptates libero temporibus ducimus debitis quis explicabo?";
-  const items = [1, 2, 3, 4, 5, 6]; // Add more items as needed
+  const items = [1, 2, 3, 4, 5, 6]; 
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -21,7 +21,7 @@ function Service() {
           Meilleurs services
         </h1>
 
-        <div className="w-full flex justify-between items-center my-6 md:my-10">
+        <div className="w-full flex justify-end items-center my-6 md:my-10">
           <div className="flex gap-2">
             <button 
               onClick={handlePrev}
