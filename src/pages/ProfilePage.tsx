@@ -1,5 +1,7 @@
 // import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import Header from '../components/Header';
+import ContactUser from '../components/ProfileContent/ContactUser';
+import Mywork from '../components/ProfileContent/Mywork';
 
 export default function ProfilePage() {
   return (
@@ -7,14 +9,16 @@ export default function ProfilePage() {
     <Header />
     <div className='relative'>
 
-      <div className='bg-[#CD9933] h-[50vh] w-full rounded-bl-[50%] rounded-br-[30%] absolute'>
+      {/* <div className='bg-[#CD9933] h-[50vh] w-full rounded-bl-[50%] rounded-br-[30%] absolute'>
         
 
       </div>
       <div className='bg-[#146551] h-[50vh] w-full rounded-bl-[70%] rounded-br-[5%] absolute'>
 
-      </div>
-      
+      </div> */}
+
+      <Mywork />
+      <ContactUser />      
     </div>
     </>
     // <div className="min-h-screen bg-gray-100">
