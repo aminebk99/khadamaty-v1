@@ -4,6 +4,7 @@ import ProfilePage from './pages/ProfilePage'
 import CategoriesFilterPage from './pages/CategoriesFilterPage'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/register' element={<RegisterPage />}/>
         <Route path='/profile' element={<ProfilePage />}/>
         <Route path='/categories' element={<CategoriesFilterPage />}/>
+        <Route path="*" element={<ErrorPage />} />
         
       </Routes>
     </BrowserRouter>
